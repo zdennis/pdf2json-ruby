@@ -1,13 +1,8 @@
 module Pdf2Json
-  BIN_DIR = File.dirname(__FILE__) + '/../bin/'
+  EXECUTABLE = "pdf2json"
+  BIN_DIR    = File.dirname(__FILE__) + '/../bin/'
   
-  module Helpers
-    def pdf2json(*args)
-      `#{Pdf2Json::BIN_DIR} #{args.join(' ')}`
-    end
-
-    def pdf2json_binary_path(*args)
-      File.join Pdf2Json::BIN_DIR, "pdf2json"
-    end
+  def self.bin_path
+    File.join(BIN_DIR, EXECUTABLE)
   end
 end
