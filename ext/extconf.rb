@@ -27,4 +27,4 @@ module Zerg
   end
 end
 
-Zerg::Support::Gems.emulate_extension_install('pdf2json-ruby')
+Zerg::Support::Gems.emulate_extension_install('pdf2json')

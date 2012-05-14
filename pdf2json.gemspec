@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name              = "pdf2json-ruby"
-  s.version           = "0.0.1"
+  s.name              = "pdf2json"
+  s.version           = "0.1.0"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["Zach Dennis"]
   s.email             = ["zach.dennis@gmail.com"]
