@@ -9,3 +9,12 @@ make
 etc/
 man/
 *.bat
+pdf2json-0.52-source/aconf.h
+pdf2json-0.52-source/config.log
+pdf2json-0.52-source/config.status
+pdf2json-0.52-source/src/pdf2json
+pdf2json-0.52-source/xpdf/pdffonts
+pdf2json-0.52-source/xpdf/pdfimages
+pdf2json-0.52-source/xpdf/pdfinfo
+pdf2json-0.52-source/xpdf/pdftops
+pdf2json-0.52-source/xpdf/pdftotext

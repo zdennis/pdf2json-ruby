@@ -5,7 +5,7 @@ bin_dir = gem_dir.join("bin")
 pdf2json_dir = gem_dir.join("pdf2json-0.52-source")
 
 Dir.chdir(pdf2json_dir) do
-  system "./configure --prefix=#{gem_dir} --bindir=#{bin_dir} && make && make install"
+  system "./configure --prefix=#{gem_dir} --bindir=#{bin_dir} && make clean && make && make install"
 end
 
 # from https://github.com/pwnall/zerg_support/blob/master/lib/zerg_support/gems.rb
