@@ -1,0 +1,11 @@
+*.o
+*.so
+bin/pdf*
+*.a
+*.dll
+*.gem
+Makefile
+make
+etc/
+man/
+*.bat
